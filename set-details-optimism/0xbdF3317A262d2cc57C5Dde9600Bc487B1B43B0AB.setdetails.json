@@ -1,0 +1,63 @@
+{
+  "setDetails": {
+    "chainId": 10,
+    "setName": "LILIBTC",
+    "setSymbol": "LIBTC",
+    "setDecimals": 18,
+    "setIcon": "",               // https://raw.githubusercontent.com/SetProtocol/uniswap-tokenlist/main/assets/tokens/asset_name.png
+    "setDescription":
+     '''
+     This product uses Bitcoin's long-term timing strategy to buy at the bottom of a bear market and sell at the top of a bull market. 
+     Do not use leverage. The annual return is about 70%, and the maximum withdrawal ratio is about 30%.
+     This strategy is based on Bitcoin market value prediction models and historical backtesting. 
+     Using the fundamental factors of Bitcoin as the prediction factor, and historical data of Bitcoin market value, 
+     a Bitcoin market value prediction model is established, with an accuracy of up to 90%.
+     After testing with historical data outside the sample, the accuracy of the model is still as high as 80%.
+     Calculate the residual indicator, which is derived from the predicted market value of Bitcoin 
+     and is equal to the difference between the logarithm of Bitcoin market value and the logarithm of predicted market value. 
+     It fluctuates between - 2 and 3.
+     When Bitcoin prices are at the top of a bull market, the residual is also at a peak, around 2.5. When Bitcoin prices are at the bottom of a bear market,
+     the residual is also at a trough, around -1.5.
+     See Bitcoin Market Value and Residual Chart for details(https://lilibtc.com/2023/02/23/%e6%af%94%e7%89%b9%e5%b8%81%e4%bb%b7%e6%a0%bc%e7%9a%84%e9%a1%b6%e9%83%a8%e5%92%8c%e5%ba%95%e9%83%a8%e8%83%bd%e9%a2%84%e6%b5%8b%e5%90%97/)
+     Using the residual as an early warning indicator, using historical data from April 14, 2014 to July 10, 2022,
+     to test the long-term timing strategy of Bitcoin, the cumulative return is 568 times, and the annual return is 72%, the maximum withdrawal rate is 34%.
+     See historical backtesting performance chart for details(https://baizhiheizi.ap-south-1.linodeobjects.com/7rjek1irhx1ga5epfihcr3xtu4hz)
+     From July 25, 2020 to December 19, 2022, the cumulative return of live investment is 370%, with an annual return of 85%:
+     From July 25, 2020 to January 20, 2021, the cumulative return was 76%. For details, please refer to Figure 1 of Live Investment Performance（ https://baizhiheizi.ap-south-1.linodeobjects.com/5lhe4p5pszic86wboye8w3zlsh2i)
+     From January 21, 2021 to June 30, 2021, the cumulative return was 89%. See Figure 2 for detailed live investment performance(https://baizhiheizi.ap-south-1.linodeobjects.com/chtgupeuk2ge7xhqon88ro7s6g06)
+     From July 1, 2021 to November 17, 2021, the cumulative return was - 17.36%. For details, please refer to Figure 3 of Live Investment Performance(https://baizhiheizi.ap-south-1.linodeobjects.com/9braydfetrqntprk44ellhcgq78h)
+     From December 30, 2021 to December 19, 2022, the cumulative return was 71%. For details, please refer to Figure 4 of Live Investment Performance(http://lilibtc.com/wp-content/uploads/2023/01/1673241601-cfd0f93c0891b45.jpg.webp)
+     本产品使用比特币长期择时策略，在熊市低部买入，在牛市顶部卖出。不使用杠杆。年收益率约为70%，最大回撤比率约为30%。
+     此策略的依据是比特币市值预测模型和历史回测。使用比特币基本面因子作为预测因子，与比特币市值的历史数据建立比特币市值预测模型，模型的准确率高达90%。
+     经过样本外历史数据检验，模型的准确率仍高达80%。
+     计算出“误差值”指标，它来源于比特币预测市值，等于比特币市值对数与预测市值对数的差。它在-2至3之间波动。
+     当比特币价格在牛市的顶部时，“误差值”也在高峰，约在2.5左右，当比特币价格在熊市的底部时，“误差值”也在低谷，约在-1.5左右。
+     详见比特币市值和误差值图（https://lilibtc.com/2023/02/23/%e6%af%94%e7%89%b9%e5%b8%81%e4%bb%b7%e6%a0%bc%e7%9a%84%e9%a1%b6%e9%83%a8%e5%92%8c%e5%ba%95%e9%83%a8%e8%83%bd%e9%a2%84%e6%b5%8b%e5%90%97/）
+     使用“误差值”作为预警指标，用2014年4月14日至2022年7月10日历史数据回测比特币长期择时策略，最大回撤率为34%，累计收益率为568倍，年收益率为72%。
+     详见历史回测业绩图（https://baizhiheizi.ap-south-1.linodeobjects.com/7rjek1irhx1ga5epfihcr3xtu4hz）
+     实盘投资从2020年7月25日至2022年12年19日，累计收益率为370%，年收益率为85%：
+     2020年7月25日至2021年1月20日，累计收益率为76%。详见实盘投资业绩图一（https://baizhiheizi.ap-south-1.linodeobjects.com/5lhe4p5pszic86wboye8w3zlsh2i）
+     2021年1月21日至2021年6月30日，累计收益率为89%。详见实盘投资业绩图二（https://baizhiheizi.ap-south-1.linodeobjects.com/chtgupeuk2ge7xhqon88ro7s6g06）
+     2021年7月1日至2021年11月17日，累计收益率为-17.36%。详见实盘投资业绩图三（https://baizhiheizi.ap-south-1.linodeobjects.com/9braydfetrqntprk44ellhcgq78h）
+     2021年12月30日至2022年12月19日，累计收益率为71%。详见实盘投资业绩图四（http://lilibtc.com/wp-content/uploads/2023/01/1673241601-cfd0f93c0891b45.jpg.webp）
+     ''',
+    "website": "https://lilibtc.com",
+    "managerName": "lili",
+    "managerTwitter": "lili_analyst",
+    "managerIcon": "https://raw.githubusercontent.com/SetProtocol/uniswap-tokenlist/main/assets/managers/lili.png",
+    "managerDescription": 
+     '''
+     Lili is a top 1% blockchain investment expert in HUOBI GLOBAL crypto currency exchange. 
+     He has passed Chartered Financial Analyst Level 1 exam in the United States.
+     He has passed Securities and Futures Professional Qualification exam in China.
+     He studied with Ken Gleason, Vice President of Risk Management at Goldman Sachs.
+     His cumulative return on crypto currency investment in 5 years is 43 times.
+     李力是火币全球数字货币交易所的前1%区块链投资专家。
+     他通过了美国特许金融分析师一级考试。
+     他通过了中国证券和期货从业资格考试。
+     他师从高盛风险管理部副总裁Ken Gleason。
+     他5年投资数字货币的累计收益为43倍。
+     '''
+  },
+  "version": 1
+}
